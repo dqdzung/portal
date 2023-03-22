@@ -1,0 +1,80 @@
+{
+  "account": "Tài khoản",
+  "all": "Tất cả",
+  "app": "Hệ thống",
+  "appname": "Hệ thống phần mềm quản trị trường Đại học Phenikaa",
+  "pageName": "Hệ thống phần mềm quản trị",
+  "schoolName": "Trường Đại học Phenikaa",
+  "user": {
+    "base": "Tài khoản",
+    "email": "Email",
+    "index": "Thông tin người dùng",
+    "password": "Mật khẩu",
+    "phone": "Điện thoại",
+    "role": "Vai trò",
+    "username": "Tên đăng nhập"
+  },
+  "lang": {
+    "en": "Tiếng Anh",
+    "vi": "Tiếng Việt"
+  },
+  "button": {
+    "login": "Đăng nhập",
+    "logout": "Đăng xuất",
+    "search": "Tìm kiếm"
+  },
+  "placeholder": {
+    "search": "Tìm kiếm {{value}}"
+  },
+  "message": {
+    "404": "Trang bạn tìm kiếm không tồn tại hoặc đã bị di chuyển",
+    "chooseFile": "Chọn tệp để tải lên",
+    "developing": "Tính năng đang được phát triển",
+    "downloadTemplate": "Tải xuống tệp mẫu nhập dữ liệu",
+    "error": {
+      "create": "Hệ thống gặp sự cố khi thêm mới bản ghi",
+      "credential": "Tên đăng nhập hoặc mật khẩu không đúng",
+      "date": "Ngày không hợp lệ",
+      "delete": "Hệ thống gặp sự cố khi xóa bản ghi",
+      "duplicate": "Từ khóa đã tồn tại",
+      "duplicateLiterals": "Từ khóa {{value}} đã tồn tại",
+      "email": "Email không hợp lệ",
+      "export": "Hệ thống gặp sự cố khi xuất dữ liệu",
+      "fetch": "Hệ thống gặp sự cố khi tải dữ liệu",
+      "fetchLiterals": "Hệ thống gặp sự cố khi tải dữ liệu {{value}}",
+      "fileSize": "Kích cỡ tệp không hợp lệ",
+      "fileType": "Loại tệp không hợp lệ",
+      "import": "Hệ thống gặp sự cố khi nhập dữ liệu",
+      "index": "Hệ thống đang gặp sự cố. Vui lòng thử lại sau",
+      "noDefault": "Vui lòng chọn giá trị mặc định",
+      "number": "Số không hợp lệ",
+      "passwordConfirm": "Mật khẩu xác nhận không khớp",
+      "required": "Đây là trường bắt buộc",
+      "requiredArray": "Vui lòng nhập tối thiểu 1 giá trị",
+      "requiredLiterals": "{{value}} là trường bắt buộc",
+      "requiredPassword": "Vui lòng nhập mật khẩu",
+      "requiredUsername": "Vui lòng nhập tên đăng nhập",
+      "sync": "Hệ thống gặp sự cố khi đồng bộ",
+      "unsync": "Hệ thống gặp sự cố khi ngừng đồng bộ",
+      "update": "Hệ thống gặp sự cố khi cập nhật bản ghi",
+      "updateLiterals": "Hệ thống gặp sự cố khi cập nhật {{value}}",
+      "url": "Link không hợp lệ"
+    },
+    "handleDuplicateRecord": "Xử lý bản ghi trùng",
+    "importedRecords": "{{totalImport}}/{{total}} {{record}} đã được nhập",
+    "noData": "Không có dữ liệu",
+    "refresh": "Phiên đăng nhập đã hết hạn",
+    "success": {
+      "create": "Thêm mới bản ghi thành công",
+      "createLiterals": "Thêm mới {{value}} thành công",
+      "delete": "Xoá bản ghi thành công",
+      "deleteLiterals": "Xóa {{value}} thành công",
+      "import": "Nhập dữ liệu thành công",
+      "importLiterals": "Nhập dữ liệu {{value}} thành công",
+      "sync": "Đồng bộ thành công",
+      "unsync": "Ngừng đồng bộ thành công",
+      "update": "Cập nhật bản ghi thành công",
+      "updateLiterals": "Cập nhật {{value}} thành công"
+    }
+  }
+}

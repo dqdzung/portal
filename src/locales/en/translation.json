@@ -1,0 +1,79 @@
+{
+  "account": "Account",
+  "all": "All",
+  "app": "App",
+  "appname": "Phenikaa University Management App Portal",
+  "pageName": "Management App Portal",
+  "schoolName": "Phenikaa University",
+  "user": {
+    "base": "Account",
+    "email": "Email",
+    "index": "User",
+    "password": "Password",
+    "phone": "Phone",
+    "role": "Role",
+    "username": "Username"
+  },
+  "lang": {
+    "en": "English",
+    "vi": "Vietnamese"
+  },
+  "button": {
+    "login": "Login",
+    "logout": "Logout",
+    "search": "Search"
+  },
+  "placeholder": {
+    "search": "Search for {{value}}"
+  },
+  "message": {
+    "404": "The requested URL could not be found on this server",
+    "developing": "This feature is under development",
+    "downloadTemplate": "Download sample template",
+    "error": {
+      "create": "Creating new record failed",
+      "credential": "Incorrect username or password",
+      "date": "Date is invalid",
+      "delete": "Deleting record failed",
+      "duplicate": "Duplicate key detected",
+      "duplicateLiterals": "Duplicate key {{value}} detected",
+      "email": "Email is invalid",
+      "export": "Exporting data failed",
+      "fetch": "Fetching data failed",
+      "fetchLiterals": "Fetching {{value}} failed",
+      "fileSize": "File size is invalid",
+      "fileType": "File type is invalid",
+      "import": "Import records failed",
+      "index": "Server is temporarily unavailable. Please try again later",
+      "noDefault": "A default value is required",
+      "number": "Number is invalid",
+      "passwordConfirm": "Password doesn't match",
+      "required": "This field is required",
+      "requiredArray": "This field requires at least 1 value",
+      "requiredLiterals": "The {{value}} field is required",
+      "requiredPassword": "Please enter your password",
+      "requiredUsername": "Please enter your username",
+      "sync": "Synchronizing failed",
+      "unsync": "Unsynchronizing failed",
+      "update": "Updating record failed",
+      "updateLiterals": "Updating {{value}} failed",
+      "url": "Link is invalid"
+    },
+    "handleDuplicateRecord": "Handle duplicate records",
+    "importedRecords": "{{totalImport}}/{{total}} {{record}} imported",
+    "noData": "Nothing to display here",
+    "refresh": "Session has expired. Please login again",
+    "success": {
+      "create": "A new record has been created successfully",
+      "createLiterals": "A new {{value}} has been created successfully",
+      "delete": "Record has been deleted",
+      "deleteLiterals": "{{value}} has been deleted",
+      "import": "Import records successfully",
+      "importLiterals": "Import {{value}}(s) successfully",
+      "sync": "Synchronize successfully",
+      "unsync": "Unsynchronize successfully",
+      "update": "Update record successfully",
+      "updateLiterals": "Update {{value}} successfully"
+    }
+  }
+}
