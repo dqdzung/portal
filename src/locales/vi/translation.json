@@ -21,10 +21,17 @@
   "button": {
     "login": "Đăng nhập",
     "logout": "Đăng xuất",
-    "search": "Tìm kiếm"
+    "search": "Tìm kiếm",
+    "access": "Truy cập"
   },
   "placeholder": {
     "search": "Tìm kiếm {{value}}"
+  },
+  "stat": {
+    "index": "Thống kê hệ thống",
+    "user": "Người dùng",
+    "department": "Phòng ban",
+    "system": "Hệ thống"
   },
   "message": {
     "404": "Trang bạn tìm kiếm không tồn tại hoặc đã bị di chuyển",

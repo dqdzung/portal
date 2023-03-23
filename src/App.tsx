@@ -21,11 +21,15 @@ function App() {
       modelType: ModelTypes.systemGroup
     });
 
-    if (res.data.success)
+    if (res.data.success) {
+      const systemGroups = res.data.data as SystemGroup[];
+      const systems = systemGroups.map((e) => e.systems).flat();
       setGlobalData({
         ...globalData,
-        systemGroups: res.data.data as SystemGroup[]
+        systemGroups,
+        systems
       });
+    }
   };
 
   useEffect(() => {

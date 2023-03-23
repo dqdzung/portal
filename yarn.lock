@@ -652,6 +652,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mantine/carousel@npm:^6.0.4":
+  version: 6.0.4
+  resolution: "@mantine/carousel@npm:6.0.4"
+  dependencies:
+    "@mantine/utils": 6.0.4
+  peerDependencies:
+    "@mantine/core": 6.0.4
+    "@mantine/hooks": 6.0.4
+    embla-carousel-react: ^7.0.0
+    react: ">=16.8.0"
+  checksum: 4aef59745ba7d6bb270e1cbf3c9875aeacb9b5125880fe085cd17d378d812e4f05202d41780a8116cff70f9f78bbe5c046ef0cd56d9f508fb120f21f42b7efc2
+  languageName: node
+  linkType: hard
+
 "@mantine/core@npm:^6.0.2":
   version: 6.0.2
   resolution: "@mantine/core@npm:6.0.2"
@@ -726,6 +740,15 @@ __metadata:
   peerDependencies:
     react: ">=16.8.0"
   checksum: c3a8f4515e59d70c5f01d311831ce036db81821381d9d1529e88c59154e9e8df4ae26aaceb1f4461d45bbfcbdd0dc303e34a56ad8c809f96c1222e63ce714eff
+  languageName: node
+  linkType: hard
+
+"@mantine/utils@npm:6.0.4":
+  version: 6.0.4
+  resolution: "@mantine/utils@npm:6.0.4"
+  peerDependencies:
+    react: ">=16.8.0"
+  checksum: 3a2f4d62d1ae78defcb293cb3454abbae0ca8a7b790ccce664f5d386973acfcc8542484717f3f38ba690f0f49689f0a1e3a18a77f4b14cfbdc227581566ac12b
   languageName: node
   linkType: hard
 
@@ -1492,6 +1515,24 @@ __metadata:
   version: 1.4.334
   resolution: "electron-to-chromium@npm:1.4.334"
   checksum: 8092fd18e30c68f68b197f7c151c149806fe307210d86a74c0544e05540c49b3de17e48def6c04af7886cefb927c45910cc18fddc475c0ed17ff0a1ddbc94268
+  languageName: node
+  linkType: hard
+
+"embla-carousel-react@npm:^7.1.0":
+  version: 7.1.0
+  resolution: "embla-carousel-react@npm:7.1.0"
+  dependencies:
+    embla-carousel: 7.1.0
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.1 || ^18.0.0
+  checksum: e5c914874e2acb4db26f7f4da9e7658522e0714fed8b72b3e99984a2e48ff1a3f618ae74855baea5da42d9dd65f4706d7bfe6384ff9f8b542060a0e17ca63264
+  languageName: node
+  linkType: hard
+
+"embla-carousel@npm:7.1.0":
+  version: 7.1.0
+  resolution: "embla-carousel@npm:7.1.0"
+  checksum: fffb3d77cbd0866d4fcfa0247ead60297f57d62ee3dcf737a4f5708c0e6034ba308716d6a8a567ead55520c117de61b382fd040e4aec3daaee55bb5ba11fee7f
   languageName: node
   linkType: hard
 
@@ -2376,6 +2417,7 @@ __metadata:
   resolution: "portal-fe@workspace:."
   dependencies:
     "@emotion/react": ^11.10.6
+    "@mantine/carousel": ^6.0.4
     "@mantine/core": ^6.0.2
     "@mantine/form": ^6.0.2
     "@mantine/hooks": ^6.0.2
@@ -2389,6 +2431,7 @@ __metadata:
     "@vitejs/plugin-react": ^3.1.0
     base64-arraybuffer: ^1.0.2
     crypto-random-string: ^5.0.0
+    embla-carousel-react: ^7.1.0
     i18next: ^22.4.13
     js-cookie: ^3.0.1
     jsencrypt: ^3.3.2

@@ -75,6 +75,14 @@
   font-family: 'PoppinsRegular';
   src: url(./Poppins/Poppins-Regular.ttf);
 }
+/* @font-face {
+  font-family: 'PoppinsBold';
+  src: url(./Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: 'PoppinsSemiBold';
+  src: url(./Poppins/Poppins-SemiBold.ttf);
+} */
 @font-face {
   font-family: 'PoppinsExtraBold';
   src: url(./Poppins/Poppins-ExtraBold.ttf);

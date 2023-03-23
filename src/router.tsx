@@ -15,11 +15,13 @@ export const ROUTER = {
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route element={<AuthLayout />}>
-      <Route path={ROUTER.LOGIN} element={<Login />} />
-      <Route path={ROUTER.PORTAL} element={<Portal />} />
-      <Route path="*" element={<>404</>} />
-    </Route>
+    <Route path={ROUTER.PORTAL} element={<Portal />} />
+
+    // <Route element={<AuthLayout />}>
+    //   // <Route path={ROUTER.LOGIN} element={<Login />} />
+    //   // <Route path={ROUTER.PORTAL} element={<Portal />} />
+    //   // <Route path="*" element={<>404</>} />
+    // </Route>
   )
 );
 

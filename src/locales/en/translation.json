@@ -21,10 +21,17 @@
   "button": {
     "login": "Login",
     "logout": "Logout",
-    "search": "Search"
+    "search": "Search",
+    "access": "Access"
   },
   "placeholder": {
     "search": "Search for {{value}}"
+  },
+  "stat": {
+    "index": "Statistics",
+    "user": "User",
+    "department": "Department",
+    "system": "System"
   },
   "message": {
     "404": "The requested URL could not be found on this server",
