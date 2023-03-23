@@ -17,7 +17,12 @@ function AuthLayout() {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    if (user) return;
+    if (user) {
+      navigate(ROUTER.PORTAL, {
+        replace: true
+      });
+      return;
+    }
 
     navigate(ROUTER.LOGIN, {
       replace: true

@@ -12,8 +12,6 @@ const UserNav = forwardRef<HTMLDivElement>((props, ref) => {
   const { t } = useTranslation();
   const navigate = useNavigate();
 
-  console.log(user);
-
   return (
     <div ref={ref} {...props}>
       <Group>
