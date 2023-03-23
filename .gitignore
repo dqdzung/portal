@@ -25,3 +25,4 @@ devops
 
 .cert
 .env
+.env.dev
