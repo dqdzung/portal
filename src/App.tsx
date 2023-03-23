@@ -1,3 +1,4 @@
+import Cookies from 'js-cookie';
 import { useEffect, useState } from 'react';
 import { RouterProvider } from 'react-router-dom';
 import { AuthContext } from './contexts/AuthContext';
@@ -9,11 +10,11 @@ import router from './router';
 import { api } from './services';
 
 function App() {
-  const { currentUser: user, setCurrentUser: setUser } = useAuth();
   const [globalData, setGlobalData] = useState<GlobalData>({
     systemGroups: null,
     systems: null
   });
+  const { currentUser, setCurrentUser } = useAuth();
 
   const fetchSystemGroups = async () => {
     const res = await api.base.filter({
@@ -37,7 +38,9 @@ function App() {
   }, []);
 
   return (
-    <AuthContext.Provider value={{ user, setUser }}>
+    <AuthContext.Provider
+      value={{ user: currentUser, setUser: setCurrentUser }}
+    >
       <GlobalDataContext.Provider value={{ ...globalData }}>
         <RouterProvider router={router} />
       </GlobalDataContext.Provider>

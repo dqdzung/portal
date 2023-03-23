@@ -2,20 +2,13 @@ import { AuthContext } from '@/contexts/AuthContext';
 import { useAuth } from '@/hooks/useAuth';
 import { ROUTER } from '@/router';
 import { showNotification } from '@mantine/notifications';
-import Cookies from 'js-cookie';
 import { Suspense, useContext, useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import {
-  useLocation,
-  useNavigate,
-  useOutlet,
-  useSearchParams
-} from 'react-router-dom';
+import { useNavigate, useOutlet } from 'react-router-dom';
 import Loading from './Loading';
 
 function AuthLayout() {
   const navigate = useNavigate();
-  const location = useLocation();
   const outlet = useOutlet();
   const { t } = useTranslation();
   const { loginWithToken } = useAuth();
@@ -26,9 +19,9 @@ function AuthLayout() {
   useEffect(() => {
     if (user) return;
 
-    // navigate(ROUTER.LOGIN, {
-    //   replace: true
-    // });
+    navigate(ROUTER.LOGIN, {
+      replace: true
+    });
     setLoading(true);
     loginWithToken({
       onSuccess: () => {

@@ -5,11 +5,13 @@ import Cookies from 'js-cookie';
 import { useEffect, useState } from 'react';
 
 export const useAuth = () => {
-  const [currentUser, setCurrentUser] = useState<string | null>(null);
+  const [currentUser, setCurrentUser] = useState<string | null>(
+    Cookies.get('user') || null
+  );
 
   useEffect(() => {
     const user = Cookies.get('user');
-    setCurrentUser(user || null);
+    setCurrentUser(user as any);
   }, []);
 
   const login = (payload: LoginUser, cb?: Callback) => {
@@ -27,8 +29,8 @@ export const useAuth = () => {
   };
 
   const logout = () => {
-    // TODO: logout logic
     setCurrentUser(null);
+    Cookies.remove('user');
   };
 
   const loginWithToken = (cb?: Callback) => {

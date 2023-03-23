@@ -7,12 +7,16 @@ const AppFooter = () => {
   const isLgScreen = useMediaQuery('(min-width: 990px');
   const theme = useMantineTheme();
   return (
-    <Footer
-      height={HEADER_HEIGHT}
-      p={isLgScreen ? '12px 200px 12px 200px' : 'sm'}
-      sx={{ backgroundColor: theme.colors['dark-blue'][6] }}
-    >
-      <Group sx={{ height: '100%' }} position="apart">
+    <Footer height={HEADER_HEIGHT} withBorder={false}>
+      <Group
+        sx={{
+          height: HEADER_HEIGHT,
+          backgroundColor: theme.colors['dark-blue'][6],
+          border: 0
+        }}
+        position="apart"
+        p={isLgScreen ? '12px 200px 12px 200px' : 'sm'}
+      >
         <Image height={32} width="auto" src={pdtLogo} />
         <Text color="#FFFFFF" fz="12px" ff="PoppinsRegular">
           © {new Date().getFullYear()}. PDT. All Rights Reserved
